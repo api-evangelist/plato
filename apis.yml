@@ -1,8 +1,24 @@
 aid: plato
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plato.png
 name: Plato
-description: 'Plato is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Plato was a mentorship and leadership community for engineering leaders (platohq.com), operating
+  from 2018 until its sunset on December 19, 2025. It ran a global network of 500+ engineering leaders and
+  1,000+ mentors, the annual Elevate conference, and dozens of meetups, webinars, and dinners. Its parent
+  company Coda was acquired by Grammarly (rebranded Superhuman), which wound down Plato''s programs to focus
+  on an AI-native productivity suite. The company is now deactivated: platohq.com redirects to a Substack
+  sunset announcement and no developer API, SDK, documentation, or integrations are or were published.
+  Surfaced as a partech portfolio lead; enrichment found no API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/plato/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Applicative Saas
+- Mentorship
+- Engineering Leadership
+- Community
+- Deactivated
+- Deactivated Company
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/plato-domain-security.yml
 - type: Website
   url: https://www.platohq.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
