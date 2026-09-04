@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.platohq.com/', status: 308, note: 'declared website redirects to https://platocommunity.substack.com/about — a different registrable domain (platohq.com -> substack.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plato.png
 name: Plato
 description: 'Plato was a mentorship and leadership community for engineering leaders (platohq.com), operating
