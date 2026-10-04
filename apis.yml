@@ -32,6 +32,7 @@ description: 'Plato was a mentorship and leadership community for engineering le
   on an AI-native productivity suite. The company is now deactivated: platohq.com redirects to a Substack
   sunset announcement and no developer API, SDK, documentation, or integrations are or were published.
   Surfaced as a partech portfolio lead; enrichment found no API surface.'
+x-status: defunct
 url: https://raw.githubusercontent.com/api-evangelist/plato/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -50,6 +51,7 @@ tags:
 - Community
 - Deactivated
 - Deactivated Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
